@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to top, #7ed6df, #eccc68);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#game-container {
+    background: rgba(255,255,255,0.95);
+    border-radius: 20px;
+    padding: 32px 40px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+    text-align: center;
+}
+#windsurfer-area {
+    margin: 20px 0;
+}
+#game-canvas {
+    background: #74b9ff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+#controls ul {
+    list-style: none;
+    padding: 0;
+}
+#controls li {
+    margin: 4px 0;
+    font-size: 1.1em;
+}
+#scoreboard {
+    margin: 16px 0 8px 0;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#restart-btn {
+    font-size: 1em;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: none;
+    background: #00b894;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+#restart-btn:hover {
+    background: #0984e3;
+}
